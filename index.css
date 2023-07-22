@@ -1,0 +1,52 @@
+.selections{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;  
+    
+}
+
+button{
+    width: 320px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: 600;
+    font-size: 18pt;
+
+}
+
+.selections.disable{
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.maincontent{
+    height: 450px;
+
+}
+
+.gif{
+    display: none;
+}
+
+.gif.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100;
+
+}
+
+.gif2{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif2.disabled{
+    display: none;
+}
